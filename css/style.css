@@ -1,0 +1,21 @@
+.container{
+    font-family: 'Barlow', sans-serif;
+    padding-left: 50px;
+}
+
+footer{
+    font-family: 'Barlow', sans-serif;
+    background-color: #E5E5E5;
+}
+
+.footer__titulo{
+    text-align: center;
+    font-size: 32px;
+    padding: 50px;
+}
+
+.footer__texto{
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 60px;
+}

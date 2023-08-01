@@ -1,0 +1,53 @@
+.pasatiempos{
+    font-family: 'Barlow', sans-serif;
+    background-color: #f5cb5c;
+}
+
+.pasatiempos__titulo{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.pasatiempos__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    padding-bottom: 70px;
+}
+
+.pasatiempos__items{
+    display: block;
+    width: 10em;
+    height: 190px;
+    border: 4px solid #14213D;
+    gap: 8px;
+    background-color: #fffcf2;
+    box-shadow: 4px 4px 4px #dbb64f;
+    border-radius: 20px;
+    padding: 30px 40px 80px 40px;
+}
+
+.pasatiempos__items-titulo{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+.pasatiempos__items-imagen{
+    padding-top: 30px;
+    width: 160px;
+}
+
+@media screen and (max-width: 1618px){
+    .pasatiempos__lista{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+
+    .pasatiempos__items{
+        margin: 0 0 40px;
+    }
+}

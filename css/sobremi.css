@@ -1,0 +1,21 @@
+.sobreMi{
+    background-color: #14213D;
+    padding: 40px 0 40px 40px;
+    font-family: 'Barlow', sans-serif;
+}
+
+.sobreMi__container{
+    color: white;
+    padding: 30px 50px 30px 20px;
+}
+
+.sobreMi__titulo{
+    font-size: 48px;
+    font-weight: bold;
+    padding:  0 0 40px 40px;
+}
+
+.sobreMi__texto{
+    font-size: 40px;
+    padding: 0 50px 60px 0;
+}

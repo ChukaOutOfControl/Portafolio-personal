@@ -1,0 +1,83 @@
+.contacto{
+    font-family: 'Barlow', sans-serif;
+    background-color: #f5cb5c;
+}
+
+.contacto__titulo{
+    text-align: center;
+    padding: 60px 0;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.contacto__texto{
+    text-align: center;
+    font-size: 48px;
+    padding: 10px 0 100px 0;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.contacto__formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.contacto__formulario-barra{
+    font-size: 36px;    
+}
+
+.contacto__formulario-input-label{
+    display: flex;
+    padding-top: 8px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 7px;
+    font-weight: bold;
+
+    align-self: stretch;
+    border-radius: 4px;
+}
+
+.contacto__formulario-input{
+    display: flex;
+    margin: 10px 0;
+    padding: 15px 50px;
+    align-items: center;
+    border-radius: 8px;
+    font-size: 36px;  
+    width: 70%;
+    background-color: #14213D;
+    color: white;
+}
+
+.contacto__boton-enviar{
+    padding-left: 100px;
+
+}
+
+.contacto__botonEnviar{
+    display: flex;
+    padding: 16px;
+    gap: 10px;
+    width: 15%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    border-radius: 8px;
+    margin: 50px 0;
+    border: #f3c034 2px solid;
+    font-weight: bold;
+    background-color: #fffcf2;
+    transition: .5s;
+}
+
+.contacto__botonEnviar:hover{
+    scale: 1.12;
+    background-color: #fff0c5;
+}
